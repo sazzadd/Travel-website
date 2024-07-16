@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   font-family: "Mulish", sans-serif;
-  font-family: ;
 }
 
 img {
@@ -277,4 +276,47 @@ select {
   line-height: 26px;
   margin-bottom: 30px;
   margin-left: 20px;
+}
+
+/* destination  */
+.row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr 0.75fr;
+  gap: 20px;
+
+}
+
+.row3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.row3 img {
+  height: 280px;
+}
+
+.row2 img {
+  height: 280px;
+}
+
+.country-card {
+  position: relative;
+}
+
+.country-card p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
 }

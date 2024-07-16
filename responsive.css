@@ -69,7 +69,27 @@
         background-color: #222;
     }
 
+    .sec-title-des-container p {
+        padding: 0 20px;
+    }
+
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
+    }
+
+    .row1,
+    .row2,
+    .row3 {
+        grid-template-columns: 1fr;
+        padding: 20px 50px;
+        text-align: center;
+        gap: 20px;
+
+    }
+
+    .row1 img,
+    .row2 img,
+    .row3 img {
+        height: 180px;
     }
 }
