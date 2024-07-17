@@ -1,12 +1,12 @@
 /* gooogle font */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* https://sazzadd.github.io/Travel-website/ */
 
 /* universel css */
 * {
   margin: 0;
   padding: 0;
   font-family: "Mulish", sans-serif;
-  border: 1px solid red;
 }
 
 img {
@@ -596,6 +596,7 @@ footer p {
 .social-icon a {
   text-decoration: none;
   padding: 5px;
+  color: #ff5400;
 }
 
 .hr {
