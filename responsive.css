@@ -92,4 +92,63 @@
     .row3 img {
         height: 180px;
     }
+
+    /* choose section */
+    .choose-card-container-row1 {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .choose-card-container-row2 {
+        margin: 20px;
+    }
+
+    .card-item img {
+
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .card-item-img {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .common {
+        max-width: 340px;
+    }
+
+    .discount-banner-1,
+    .discount-banner-2 {
+        max-width: 90%;
+        justify-content: center;
+    }
+
+    .pakege-container {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    /* video */
+    .video {
+        padding: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .video-container {
+        width: 340px;
+        height: 320px;
+    }
+
+    .footer p {
+        width: 375px;
+    }
 }
