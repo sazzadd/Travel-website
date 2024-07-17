@@ -1,6 +1,11 @@
 @media only screen and (max-width: 576px) {
 
     /* banner section */
+    .banner h3 {
+        line-height: 30px;
+        font-size: 35px;
+    }
+
     .input-aria {
         flex-direction: column;
         gap: 20px;
